@@ -23,9 +23,9 @@
                         <span class="input-group-text" id="basic-addon2">Join</span>
                     </div>
                 </div>
-                <fa :icon="['fab', 'instagram' ]" class="instagram"/>
-                <fa :icon="['fab', 'linkedin-in' ]" class="linkedin"/>
-                <fa :icon="['fab', 'twitter' ]" class="twitter"/>
+                <a href="https://www.instagram.com"><fa :icon="['fab', 'instagram' ]" class="instagram"/></a>
+                <a href="https://www.linkedin.com"><fa :icon="['fab', 'linkedin-in' ]" class="linkedin"/></a>
+                <a href="https://www.twitter.com"><fa :icon="['fab', 'twitter' ]" class="twitter"/></a>
             </div>
         </div>
     </div>
@@ -215,6 +215,7 @@
                 padding: 5px;
                 border-radius: 100%;
                 margin-right: 7px;
+                cursor: pointer;
             }
             .instagram{
                 background-color: #CD486B;
