@@ -215,6 +215,7 @@
                 padding: 5px;
                 border-radius: 100%;
                 margin-right: 7px;
+                color: white !important;
                 cursor: pointer;
             }
             .instagram{
